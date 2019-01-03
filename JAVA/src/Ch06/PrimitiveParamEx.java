@@ -14,7 +14,7 @@ public class PrimitiveParamEx {
 	}
 	
 	static void change(int x) {
-		x = 1000;
+		x = 1000;	
 		System.out.println("change() : x = " + x);
 	}
 }
