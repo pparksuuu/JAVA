@@ -20,6 +20,6 @@ public class ProductTest {
 		
 		System.out.println("p1의 제품번호 (serial no)는 " + p1.serialNo);
 		System.out.println("p2의 제품번호 (serial no)는 " + p2.serialNo);
-		System.out.println("p3의 제품번호 (serial no)는 " + p3.serialNo);
+		System.out.println("p3의 제품번호 (serial no)는 " + p3.serialNo); 
 	}
 }
