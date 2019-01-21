@@ -6,7 +6,7 @@ public class CastingTest {
 		FireEngine fe = new FireEngine();
 		FireEngine fe2 = null;
 		
-		fe.water();
+		fe.water(); 
 		car = fe;
 //		car.water(); // 컴파일 에러!! Car타입의 참조변수로는 water() 호출 불가능!
 		fe2 = (FireEngine) car; // 자손타입 <- 조상타입. Down Casting
