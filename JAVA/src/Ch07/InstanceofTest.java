@@ -2,13 +2,13 @@ package Ch07;
 
 public class InstanceofTest {
 	public static void main(String[] args) {
-		FireEngine fe = new FireEngine();
+		FireEngine5 fe = new FireEngine5();
 		
-		if (fe instanceof FireEngine) {
+		if (fe instanceof FireEngine5) {
 			System.out.println("This is a FireEngine instance");
 		}
 		
-		if (fe instanceof Car) {
+		if (fe instanceof Car5) {
 			System.out.println("This is a Car instance");
 		}
 		
@@ -20,5 +20,5 @@ public class InstanceofTest {
 	}
 }
 
-class Car {}
-class FireEngine extends Car {}
+class Car5 {}
+class FireEngine5 extends Car5 {}

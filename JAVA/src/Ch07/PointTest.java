@@ -9,11 +9,11 @@ public class PointTest {
 	}
 }
 
-class Point {
+class Point3 {
 	int x = 10;
 	int y = 20;
 	
-	Point(int x, int y) {
+	Point3(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
